@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="BlueStack_Assignment">
+	<listeners>
+		<listener class-name="ExtentReportsr.listenerTest"/>
+	</listeners>
+	
+	<!-- 	Developed by RahulB -->
+	<!-- 	TestSuite of Cucumber -->
+	<test name="TestSuite#01 :: BasicCcmTesting">
+		<classes>
+			<class name="runners.TestRunner" /> 
+		</classes>
+	</test>
+
+</suite>
